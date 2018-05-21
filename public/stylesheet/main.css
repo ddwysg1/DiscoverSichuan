@@ -1,0 +1,46 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+.page-wrap {
+    min-height: 100%;
+    margin-bottom: -55px;
+    padding-bottom: 20px;
+}
+.page-wrap:after {
+    content: "";
+    display: block;
+}
+.footer,
+.page-wrap:after {
+    height: 55px;
+}
+.footer {
+    background: #e7e7e7;
+}
+.footer .container {
+    padding-top: 15px;
+}
+.footer {
+    color: #777;
+}
+.thumbnail {
+    padding: 0;
+}
+.thumbnail img {
+    width: 100%;
+}
+.thumbnail .caption-full {
+    padding: 9px;
+}
+
+body
+{
+    background: #003973;  /* fallback for old browsers */
+    background: -webkit-gradient(linear, 100% 0, 0 0, from(#E5E5BE), to(#003973));
+    background: -webkit-linear-gradient(to right, #E5E5BE, #003973);
+    background: -moz-linear-gradient(to right, #E5E5BE, #003973);
+    background: -o-linear-gradient(to right, #E5E5BE, #003973);
+    background: linear-gradient(to right, #E5E5BE, #003973);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
