@@ -6,3 +6,6 @@ The latest version is deployed at https://mysterious-fjord-94671.herokuapp.com.
 Main difference from YelpCamp:
 1. The topic is totally different.
 2. Price is editable.
+
+
+PS: Folder *node_modules* is not included here.
